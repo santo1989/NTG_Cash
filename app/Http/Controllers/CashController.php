@@ -110,7 +110,6 @@ class CashController extends Controller
 
     public function store(Request $request)
     {
-        
         $validator = Validator::make($request->all(), [
             'company_id' => 'nullable',
             'inc_category' => 'nullable',
@@ -144,6 +143,39 @@ class CashController extends Controller
         if ($validator->fails()) {
             return redirect()->back()->withErrors($validator)->withInput();
         }
+
+        if (
+            $request->input('company_id') === null &&
+            $request->input('inc_category') === null &&
+            $request->input('claim_percentage') === null &&
+            $request->input('job_number') === null &&
+            $request->input('export_lc_number') === null &&
+            $request->input('replace_lc_number') === null &&
+            $request->input('lc_date') === null &&
+            $request->input('lc_value') === null &&
+            $request->input('invoice_value') === null &&
+            $request->input('realized_amount') === null &&
+            $request->input('claim_amount') === null &&
+            $request->input('claim_amount_bdt') === null &&
+            $request->input('last_proceed_receive_date') === null &&
+            $request->input('last_claim_submission_date') === null &&
+            $request->input('bank_apply_date') === null &&
+            $request->input('claim_submission_date') === null &&
+            $request->input('bank_reference') === null &&
+            $request->input('auditor_reference') === null &&
+            $request->input('discrepancy') === null &&
+            $request->input('certificate_amount') === null &&
+            $request->input('certificate_received_date') === null &&
+            $request->input('bangladesh_bank_reference') === null &&
+            $request->input('date') === null &&
+            $request->input('cash_received_amount_bdt') === null &&
+            $request->input('cash_received_date') === null &&
+            $request->input('page_number') === null &&
+            $request->input('remarks') === null
+        ) {
+            return redirect()->route('cashes.index')->withErrors('All fields are null, Please fill up at least one field');
+        }
+
 
         $cash = new Cash;
         $cash->company_id = $request->company_id;

@@ -28,7 +28,8 @@
                                 <div class="card-header">
                                     <div class="row">
                                         <div class="col-md-12 col-sm-12">
-                                            <table class="table table-borderless table-responsive text-center text-light font-weight-bold">
+                                            <table
+                                                class="table table-borderless table-responsive text-center text-light font-weight-bold">
                                                 <tr>
 
 
@@ -286,7 +287,7 @@
                                                         <div class="row">
                                                             <div class="col-12">
                                                                 <select name="company_id" id="company_id"
-                                                                    class="form-control" required>
+                                                                    class="form-control" >
                                                                     <option value=""
                                                                         style="background-color: rgba(0, 0, 0, 0.5)">
                                                                         Select Company</option>
@@ -363,7 +364,7 @@
                                                         <div class="row">
                                                             <div class="col-12">
                                                                 <x-input name="job_number" id="job_number"
-                                                                    class="form-control" required autofocus />
+                                                                    class="form-control"  autofocus />
                                                             </div>
 
                                                         </div>
@@ -389,7 +390,7 @@
                                                         <div class="row">
                                                             <div class="col-12">
                                                                 <x-input name="export_lc_number" id="export_lc_number"
-                                                                    class="form-control" required autofocus />
+                                                                    class="form-control"  autofocus />
                                                             </div>
 
                                                         </div>
@@ -409,7 +410,7 @@
                                                             <div class="col-12">
                                                                 <x-input name="replace_lc_number"
                                                                     id="replace_lc_number" class="form-control"
-                                                                    required autofocus />
+                                                                     autofocus />
                                                             </div>
 
                                                         </div>
@@ -427,7 +428,7 @@
                                                         <div class="row">
                                                             <div class="col-12">
                                                                 <x-input name="lc_date" id="lc_date"
-                                                                    class="form-control" type="date" required
+                                                                    class="form-control" type="date" 
                                                                     autofocus />
                                                             </div>
 
@@ -446,7 +447,7 @@
                                                         <div class="row">
                                                             <div class="col-12">
                                                                 <x-input name="lc_value" id="lc_value"
-                                                                    class="form-control" required autofocus />
+                                                                    class="form-control"  autofocus />
                                                             </div>
 
                                                         </div>
@@ -472,7 +473,7 @@
                                                         <div class="row">
                                                             <div class="col-12">
                                                                 <x-input name="invoice_value" id="invoice_value"
-                                                                    class="form-control" required autofocus />
+                                                                    class="form-control"  autofocus />
                                                             </div>
 
                                                         </div>
@@ -491,7 +492,7 @@
                                                         <div class="row">
                                                             <div class="col-12">
                                                                 <x-input name="realized_amount" id="realized_amount"
-                                                                    type="number" class="form-control" required
+                                                                    type="number" class="form-control" 
                                                                     autofocus />
                                                             </div>
 
@@ -511,7 +512,7 @@
                                                         <div class="row">
                                                             <div class="col-12">
                                                                 <x-input name="claim_amount" id="claim_amount"
-                                                                    type="number" class="form-control" required
+                                                                    type="number" class="form-control" 
                                                                     autofocus />
                                                             </div>
 
@@ -531,7 +532,7 @@
                                                         <div class="row">
                                                             <div class="col-12">
                                                                 <x-input name="claim_amount_bdt" id="claim_amount_bdt"
-                                                                    type="number" class="form-control" required
+                                                                    type="number" class="form-control" 
                                                                     autofocus />
                                                             </div>
 
@@ -559,7 +560,7 @@
                                                             <div class="col-12">
                                                                 <x-input name="last_proceed_receive_date"
                                                                     id="last_proceed_receive_date" type="date"
-                                                                    class="form-control" required autofocus />
+                                                                    class="form-control"  autofocus />
                                                             </div>
 
                                                         </div>
@@ -579,7 +580,7 @@
                                                             <div class="col-12">
                                                                 <x-input name="last_claim_submission_date"
                                                                     id="last_claim_submission_date" type="date"
-                                                                    class="form-control" required autofocus />
+                                                                    class="form-control"  autofocus />
                                                             </div>
 
                                                         </div>
@@ -598,7 +599,7 @@
                                                         <div class="row">
                                                             <div class="col-12">
                                                                 <x-input name="bank_apply_date" id="bank_apply_date"
-                                                                    type="date" class="form-control" required
+                                                                    type="date" class="form-control" 
                                                                     autofocus />
                                                             </div>
 
@@ -619,7 +620,7 @@
                                                             <div class="col-12">
                                                                 <x-input name="claim_submission_date"
                                                                     id="claim_submission_date" type="date"
-                                                                    class="form-control" required autofocus />
+                                                                    class="form-control"  autofocus />
                                                             </div>
 
                                                         </div>
@@ -645,7 +646,7 @@
                                                         <div class="row">
                                                             <div class="col-12">
                                                                 <x-input name="bank_reference" id="bank_reference"
-                                                                    class="form-control" required autofocus />
+                                                                    class="form-control"  autofocus />
                                                             </div>
 
                                                         </div>
@@ -665,7 +666,7 @@
                                                             <div class="col-12">
                                                                 <x-input name="auditor_reference"
                                                                     id="auditor_reference" class="form-control"
-                                                                    required autofocus />
+                                                                     autofocus />
                                                             </div>
 
                                                         </div>
@@ -684,7 +685,7 @@
                                                         <div class="row">
                                                             <div class="col-12">
                                                                 <x-input name="discrepancy" id="discrepancy"
-                                                                    class="form-control" required autofocus />
+                                                                    class="form-control"  autofocus />
                                                             </div>
 
                                                         </div>
@@ -704,7 +705,7 @@
                                                             <div class="col-12">
                                                                 <x-input name="certificate_amount"
                                                                     id="certificate_amount" type="number"
-                                                                    class="form-control" required autofocus />
+                                                                    class="form-control"  autofocus />
                                                             </div>
 
                                                         </div>
@@ -731,7 +732,7 @@
                                                             <div class="col-12">
                                                                 <x-input name="certificate_received_date"
                                                                     id="certificate_received_date" type="date"
-                                                                    class="form-control" required autofocus />
+                                                                    class="form-control"  autofocus />
                                                             </div>
 
                                                         </div>
@@ -751,7 +752,7 @@
                                                             <div class="col-12">
                                                                 <x-input name="bangladesh_bank_reference"
                                                                     id="bangladesh_bank_reference"
-                                                                    class="form-control" required autofocus />
+                                                                    class="form-control"  autofocus />
                                                             </div>
 
                                                         </div>
@@ -769,7 +770,7 @@
                                                         <div class="row">
                                                             <div class="col-12">
                                                                 <x-input name="date" id="date" type="date"
-                                                                    class="form-control" required autofocus />
+                                                                    class="form-control"  autofocus />
                                                             </div>
 
                                                         </div>
@@ -789,7 +790,7 @@
                                                             <div class="col-12">
                                                                 <x-input name="cash_received_amount_bdt"
                                                                     id="cash_received_amount_bdt" type="number"
-                                                                    class="form-control" required autofocus />
+                                                                    class="form-control"  autofocus />
                                                             </div>
 
                                                         </div>
@@ -816,7 +817,7 @@
                                                             <div class="col-12">
                                                                 <x-input name="cash_received_date"
                                                                     id="cash_received_date" type="date"
-                                                                    class="form-control" required autofocus />
+                                                                    class="form-control"  autofocus />
                                                             </div>
 
                                                         </div>
@@ -835,7 +836,7 @@
                                                         <div class="row">
                                                             <div class="col-12">
                                                                 <x-input name="page_number" id="page_number"
-                                                                    type="number" class="form-control" required
+                                                                    type="number" class="form-control" 
                                                                     autofocus />
                                                             </div>
 
@@ -897,18 +898,21 @@
 
     {{-- start model for Data Edit --}}
     @foreach ($cashes as $cash)
-        <div class="modal fade" id="CashEditModal{{ $cash->id }}" tabindex="-1"  aria-labelledby="CashEditModal{{ $cash->id }}Label" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal fade" id="CashEditModal{{ $cash->id }}" tabindex="-1"
+            aria-labelledby="CashEditModal{{ $cash->id }}Label" aria-hidden="true" data-bs-backdrop="static"
+            data-bs-keyboard="false">
             <div class="modal-dialog modal-xl" style="min-width:90%;">
                 <div class="modal-content" style="background-color: rgba(0,0,0,0.5); min-width:90%;">
                     <div class="modal-header" style="background: rgba(0, 0, 0, 0.5); color: #f1f1f1; min-width:90%;">
                         <h5 class="modal-title text-center" id="CashEditModalLabel">Data Edit</h5>
-                       <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-outline-secondary"
+                            data-bs-dismiss="modal">Close</button>
                     </div>
                     <div class="modal-body" style="background: rgba(0, 0, 0, 0.5); color: #f1f1f1; min-width:90%;">
                         <!-- Your x-guest-layout code here -->
-                        
-                    {{-- Add a form element with an ID for the submit button --}}
-                    
+
+                        {{-- Add a form element with an ID for the submit button --}}
+
 
                         <div class="container-fluid justify-content-center"
                             style="background: rgba(0, 0, 0, 0.5); color: #f1f1f1; min-width:90%;">
@@ -923,7 +927,7 @@
                                                 enctype="multipart/form-data">
                                                 @csrf
                                                 @method('PUT')
-                                               
+
                                                 {{-- Rest of your form elements --}}
                                                 {{-- row-1 start --}}
                                                 <div class="row justify-content-between">
@@ -935,7 +939,7 @@
                                                             <div class="row">
                                                                 <div class="col-12">
                                                                     <select name="company_id" id="company_id"
-                                                                        class="form-control" required>
+                                                                        class="form-control" >
                                                                         <option value=""
                                                                             style="background-color: rgba(0, 0, 0, 0.5)">
                                                                             Select Company</option>
@@ -1017,7 +1021,7 @@
                                                             <div class="row">
                                                                 <div class="col-12">
                                                                     <x-input name="job_number" id="job_number"
-                                                                        class="form-control" required autofocus
+                                                                        class="form-control"  autofocus
                                                                         :value="$cash->job_number" />
                                                                 </div>
                                                             </div>
@@ -1039,7 +1043,7 @@
                                                                 <div class="col-12">
                                                                     <x-input name="export_lc_number"
                                                                         id="export_lc_number" class="form-control"
-                                                                        required autofocus :value="$cash->export_lc_number" />
+                                                                         autofocus :value="$cash->export_lc_number" />
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1055,7 +1059,7 @@
                                                                 <div class="col-12">
                                                                     <x-input name="replace_lc_number"
                                                                         id="replace_lc_number" class="form-control"
-                                                                        required autofocus :value="$cash->replace_lc_number" />
+                                                                         autofocus :value="$cash->replace_lc_number" />
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1070,7 +1074,7 @@
                                                             <div class="row">
                                                                 <div class="col-12">
                                                                     <x-input name="lc_date" id="lc_date"
-                                                                        class="form-control" type="date" required
+                                                                        class="form-control" type="date" 
                                                                         autofocus :value="$cash->lc_date" />
                                                                 </div>
                                                             </div>
@@ -1086,7 +1090,7 @@
                                                             <div class="row">
                                                                 <div class="col-12">
                                                                     <x-input name="lc_value" id="lc_value"
-                                                                        class="form-control" required autofocus
+                                                                        class="form-control"  autofocus
                                                                         :value="$cash->lc_value" />
                                                                 </div>
                                                             </div>
@@ -1106,7 +1110,7 @@
                                                             <div class="row">
                                                                 <div class="col-12">
                                                                     <x-input name="invoice_value" id="invoice_value"
-                                                                        class="form-control" required autofocus
+                                                                        class="form-control"  autofocus
                                                                         :value="$cash->invoice_value" />
                                                                 </div>
                                                             </div>
@@ -1123,7 +1127,7 @@
                                                                 <div class="col-12">
                                                                     <x-input name="realized_amount"
                                                                         id="realized_amount" type="number"
-                                                                        class="form-control" required autofocus
+                                                                        class="form-control"  autofocus
                                                                         :value="$cash->realized_amount" />
                                                                 </div>
                                                             </div>
@@ -1139,7 +1143,7 @@
                                                             <div class="row">
                                                                 <div class="col-12">
                                                                     <x-input name="claim_amount" id="claim_amount"
-                                                                        type="number" class="form-control" required
+                                                                        type="number" class="form-control" 
                                                                         autofocus :value="$cash->claim_amount" />
                                                                 </div>
                                                             </div>
@@ -1156,7 +1160,7 @@
                                                                 <div class="col-12">
                                                                     <x-input name="claim_amount_bdt"
                                                                         id="claim_amount_bdt" type="number"
-                                                                        class="form-control" required autofocus
+                                                                        class="form-control"  autofocus
                                                                         :value="$cash->claim_amount_bdt" />
                                                                 </div>
                                                             </div>
@@ -1177,7 +1181,7 @@
                                                                 <div class="col-12">
                                                                     <x-input name="last_proceed_receive_date"
                                                                         id="last_proceed_receive_date" type="date"
-                                                                        class="form-control" required autofocus
+                                                                        class="form-control"  autofocus
                                                                         :value="$cash->last_proceed_receive_date" />
                                                                 </div>
                                                             </div>
@@ -1194,7 +1198,7 @@
                                                                 <div class="col-12">
                                                                     <x-input name="last_claim_submission_date"
                                                                         id="last_claim_submission_date" type="date"
-                                                                        class="form-control" required autofocus
+                                                                        class="form-control"  autofocus
                                                                         :value="$cash->last_claim_submission_date" />
                                                                 </div>
                                                             </div>
@@ -1211,7 +1215,7 @@
                                                                 <div class="col-12">
                                                                     <x-input name="bank_apply_date"
                                                                         id="bank_apply_date" type="date"
-                                                                        class="form-control" required autofocus
+                                                                        class="form-control"  autofocus
                                                                         :value="$cash->bank_apply_date" />
                                                                 </div>
                                                             </div>
@@ -1228,7 +1232,7 @@
                                                                 <div class="col-12">
                                                                     <x-input name="claim_submission_date"
                                                                         id="claim_submission_date" type="date"
-                                                                        class="form-control" required autofocus
+                                                                        class="form-control"  autofocus
                                                                         :value="$cash->claim_submission_date" />
                                                                 </div>
                                                             </div>
@@ -1248,7 +1252,7 @@
                                                             <div class="row">
                                                                 <div class="col-12">
                                                                     <x-input name="bank_reference" id="bank_reference"
-                                                                        class="form-control" required autofocus
+                                                                        class="form-control"  autofocus
                                                                         :value="$cash->bank_reference" />
                                                                 </div>
                                                             </div>
@@ -1265,7 +1269,7 @@
                                                                 <div class="col-12">
                                                                     <x-input name="auditor_reference"
                                                                         id="auditor_reference" class="form-control"
-                                                                        required autofocus :value="$cash->auditor_reference" />
+                                                                         autofocus :value="$cash->auditor_reference" />
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1280,7 +1284,7 @@
                                                             <div class="row">
                                                                 <div class="col-12">
                                                                     <x-input name="discrepancy" id="discrepancy"
-                                                                        class="form-control" required autofocus
+                                                                        class="form-control"  autofocus
                                                                         :value="$cash->discrepancy" />
                                                                 </div>
                                                             </div>
@@ -1297,7 +1301,7 @@
                                                                 <div class="col-12">
                                                                     <x-input name="certificate_amount"
                                                                         id="certificate_amount" type="number"
-                                                                        class="form-control" required autofocus
+                                                                        class="form-control"  autofocus
                                                                         :value="$cash->certificate_amount" />
                                                                 </div>
                                                             </div>
@@ -1318,7 +1322,7 @@
                                                                 <div class="col-12">
                                                                     <x-input name="certificate_received_date"
                                                                         id="certificate_received_date" type="date"
-                                                                        class="form-control" required autofocus
+                                                                        class="form-control"  autofocus
                                                                         :value="$cash->certificate_received_date" />
                                                                 </div>
                                                             </div>
@@ -1335,7 +1339,7 @@
                                                                 <div class="col-12">
                                                                     <x-input name="bangladesh_bank_reference"
                                                                         id="bangladesh_bank_reference"
-                                                                        class="form-control" required autofocus
+                                                                        class="form-control"  autofocus
                                                                         :value="$cash->bangladesh_bank_reference" />
                                                                 </div>
                                                             </div>
@@ -1351,7 +1355,7 @@
                                                             <div class="row">
                                                                 <div class="col-12">
                                                                     <x-input name="date" id="date"
-                                                                        type="date" class="form-control" required
+                                                                        type="date" class="form-control" 
                                                                         autofocus :value="$cash->date" />
                                                                 </div>
                                                             </div>
@@ -1368,7 +1372,7 @@
                                                                 <div class="col-12">
                                                                     <x-input name="cash_received_amount_bdt"
                                                                         id="cash_received_amount_bdt" type="number"
-                                                                        class="form-control" required autofocus
+                                                                        class="form-control"  autofocus
                                                                         :value="$cash->cash_received_amount_bdt" />
                                                                 </div>
                                                             </div>
@@ -1389,7 +1393,7 @@
                                                                 <div class="col-12">
                                                                     <x-input name="cash_received_date"
                                                                         id="cash_received_date" type="date"
-                                                                        class="form-control" required autofocus
+                                                                        class="form-control"  autofocus
                                                                         :value="$cash->cash_received_date" />
                                                                 </div>
                                                             </div>
@@ -1405,7 +1409,7 @@
                                                             <div class="row">
                                                                 <div class="col-12">
                                                                     <x-input name="page_number" id="page_number"
-                                                                        type="number" class="form-control" required
+                                                                        type="number" class="form-control" 
                                                                         autofocus :value="$cash->page_number" />
                                                                 </div>
                                                             </div>
@@ -1433,7 +1437,7 @@
                                                             <button type="submit"
                                                                 class="btn btn-outline-light ml-2 mx-auto d-block">Update</button>
 
-                                                                
+
                                                         </div>
                                                     </div>
                                                     {{-- submit end --}}
@@ -1577,9 +1581,10 @@
                         <a type="button" class="btn btn-outline-info" data-bs-toggle="modal"
                             data-bs-target="#CashEditModal{{ $cash->id }}" data-bs-dismiss="modal" onclick="closePreviousModal() )">Edit</a> --}}
 
-                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-<a type="button" class="btn btn-outline-info" data-bs-toggle="modal"
-    data-bs-target="#CashEditModal{{ $cash->id }}" data-bs-dismiss="modal" onclick="closeAndShowModal('{{ $cash->id }}')">Edit</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <a type="button" class="btn btn-outline-info" data-bs-toggle="modal"
+                            data-bs-target="#CashEditModal{{ $cash->id }}" data-bs-dismiss="modal"
+                            onclick="closeAndShowModal('{{ $cash->id }}')">Edit</a>
 
 
 
@@ -1595,7 +1600,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
-        
         $(document).ready(function() {
             // Single Delete
             $('.delete-button').on('click', function() {
@@ -1696,30 +1700,27 @@
         //     closeButton.click();
         // }
 
-function closeAndShowModal(cashId) {
-  closePreviousModal(); // Close previous modal
+        function closeAndShowModal(cashId) {
+            closePreviousModal(); // Close previous modal
 
-  // Show the new modal using its ID
-  var newModal = document.querySelector('#CashEditModal' + cashId);
-  var modalInstance = new bootstrap.Modal(newModal);
-  modalInstance.show();
-}
+            // Show the new modal using its ID
+            var newModal = document.querySelector('#CashEditModal' + cashId);
+            var modalInstance = new bootstrap.Modal(newModal);
+            modalInstance.show();
+        }
 
-function closePreviousModal() {
-  // Find the previous modal using its class and trigger the click event on the "Close" button
-  var previousModal = document.querySelector('.modal.show');
-  if (previousModal) { // Check if previousModal exists
-    var closeButton = previousModal.querySelector('[data-dismiss="modal"]');
-    if (closeButton) { // Check if closeButton exists
-      if (typeof closeButton.click === 'function') { // Check if closeButton.click is a function
-        closeButton.click();
-      }
-    }
-  }
-}
-
-
-
+        function closePreviousModal() {
+            // Find the previous modal using its class and trigger the click event on the "Close" button
+            var previousModal = document.querySelector('.modal.show');
+            if (previousModal) { // Check if previousModal exists
+                var closeButton = previousModal.querySelector('[data-dismiss="modal"]');
+                if (closeButton) { // Check if closeButton exists
+                    if (typeof closeButton.click === 'function') { // Check if closeButton.click is a function
+                        closeButton.click();
+                    }
+                }
+            }
+        }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
