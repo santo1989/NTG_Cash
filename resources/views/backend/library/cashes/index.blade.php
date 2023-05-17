@@ -18,22 +18,22 @@
 
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xl-12">
-                    <div class="card">
+                    <div class="card" style="background-color: #40c47c;">
                         {{-- style="width: 100vw; overflow-x: scroll;" --}}
 
-                        <div class="card-header">
+                        <div class="card-header" style="background: rgba(0, 0, 0, 0.4); color: #f1f1f1; ">
 
                             <form method="GET" action="{{ route('cashes.index') }}">
                                 @csrf
                                 <div class="card-header">
                                     <div class="row">
                                         <div class="col-md-12 col-sm-12">
-                                            <table class="table table-borderless table-responsive">
+                                            <table class="table table-borderless table-responsive text-center text-light font-weight-bold">
                                                 <tr>
 
 
                                                     <div class="form-group">
-                                                        <td>Inc Category:</td>
+                                                        <td>Incentive Category:</td>
                                                         <td>
                                                             <select name="inc_category" id="inc_category"
                                                                 class="form-control">
