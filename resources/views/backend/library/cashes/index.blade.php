@@ -1505,13 +1505,13 @@
                                     <th>Invoice Value:</th>
                                     <td>{{ $cash->invoice_value }}</td>
                                     <th>Realized Amount:</th>
-                                    <td>{{ $cash->realized_amount }}</td>
+                                    <td>{{ number_format($cash->realized_amount, 2, ',', ',') }}</td>
                                 </tr>
                                 <tr>
                                     <th>Claim Amount:</th>
-                                    <td>{{ $cash->claim_amount }}</td>
+                                    <td>{{ number_format($cash->claim_amount, 2, ',', ',') }}</td>
                                     <th>Claim Amount BDT:</th>
-                                    <td>{{ $cash->claim_amount_bdt }}</td>
+                                    <td>{{ number_format($cash->claim_amount_bdt, 2, ',', ',') }}</td>
                                 </tr>
                                 <tr>
                                     <th>Last Proceed Receive Date:</th>
@@ -1540,7 +1540,7 @@
                                     <th>Discrepancy:</th>
                                     <td>{{ $cash->discrepancy }}</td>
                                     <th>Certificate Amount:</th>
-                                    <td>{{ $cash->certificate_amount }}</td>
+                                    <td>{{ number_format($cash->certificate_amount, 2, ',', ',') }}</td>
                                 </tr>
                                 <tr>
                                     <th>Certificate Received Date:</th>
@@ -1556,7 +1556,8 @@
                                     <td>{{ $cash->date ? \Carbon\Carbon::parse($cash->date)->format('d-M-Y') : '' }}
                                     </td>
                                     <th>Cash Received Amount BDT:</th>
-                                    <td>{{ $cash->cash_received_amount_bdt }}</td>
+                                    <td>{{ number_format($cash->cash_received_amount_bdt, 2, ',', ',') }}
+                                    </td>
                                 </tr>
                                 <tr>
                                     <th>Cash Received Date:</th>
